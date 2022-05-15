@@ -1,0 +1,19 @@
+  body{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1, h2, form, button, h3{
+    align-self: center;
+  }
+  div{
+      flex-grow: 2;
+      justify-content: center;
+      margin: 0 15%;
+  }
+
+  label{
+    display: block;
+    padding: 5px 0px;
+  }
